@@ -1,5 +1,5 @@
 class VendorSerializer < ActiveModel::Serializer
-  attributes :id, :title, :lat, :lon
+  attributes :id, :name, :lat, :lon, :phone
 
   has_many :stockings
   has_many :breweries

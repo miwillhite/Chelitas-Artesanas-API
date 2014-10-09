@@ -2,12 +2,12 @@ require 'active_support'
 
 vendors = [
   {
-    title: 'Brasil Delicatesen',
+    name: 'Brasil Delicatesen',
     lat: -0.165558,
     lon: -78.489117
   },
   {
-    title: 'Taxi Licores',
+    name: 'Taxi Licores',
     lat: -0.159737,
     lon: -78.490277
   }
@@ -15,11 +15,16 @@ vendors = [
 
 breweries = [
   {
-    name: 'Andes Brewing',
-    url: 'http://andesbrew.com'
+    name: 'Andes Brewing'
   },
   {
     name: 'Sinners Brewery'
+  }
+]
+
+contacts = [
+  {
+    phone: '3123456'
   }
 ]
 
@@ -38,6 +43,7 @@ end
 
 create Vendor, vendors
 create Brewery, breweries
+create Contact, contacts
 
 5.times do
   Stocking.create({
@@ -46,3 +52,7 @@ create Brewery, breweries
     created_at: random_time
   })
 end
+
+contactable_vendor = random_instance(Vendor)
+contactable_vendor.contact = random_instance(Contact)
+contactable_vendor.save!
