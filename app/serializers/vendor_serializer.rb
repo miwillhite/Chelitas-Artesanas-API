@@ -6,6 +6,10 @@ class VendorSerializer < ActiveModel::Serializer
 
   embed :ids, include: true
 
+  def phone
+    object.phone || ""
+  end
+
   def lat
     object.lat.to_f
   end
