@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>SINNERS ubicaciones</name>
+  <description><![CDATA[Lugares donde puedes encontrar una cerveza artesanal SINNERS]]></description>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://www.oxigenio.com.ec/espe/sinnersico51.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>SINNERS Brewery</name>
+    <description><![CDATA[<div dir="ltr">Fábrica de la cerveza artesanal SINNERS</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-78.482826,-0.093620,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Estacion Quito</name>
+    <description><![CDATA[<div dir="ltr">El mejor lugar de Quito, no es para bailar, pero se la goza!!!, no es para pensar, pero propone!!! aca siempre encontraras algo nuevo. Todos los miercoles tenemos GypsyJazz o Blues Jam. Ademas tenemos obras de teatro y musica en vivo. Porque en LA ESTACION siempre ALGO ESTA PASANDO!!! https://www.facebook.com/pages/La-Estacion-Quito/209617775731407</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-78.491432,-0.203429,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Cuchara De San Marcos</name>
+    <description><![CDATA[<div dir="ltr">https://www.facebook.com/lacuchara.desanmarcos</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-78.507500,-0.225965,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Cleta Bicicleta</name>
+    <description><![CDATA[<a href="https://www.facebook.com/lacleta.bicicleta" target="_blank">www.facebook.com/lacleta.bicicleta</a>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-78.482956,-0.209115,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Liebre Video Café</name>
+    <description><![CDATA[<a href="https://www.facebook.com/pages/La-Liebre-Video-Caf%C3%A9/175491045921513" target="_blank"> www.facebook.com/pages/La-Liebre-Video-Café/175491045921513</a>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-78.479118,-0.198558,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sybarite Delicatessen</name>
+    <description><![CDATA[<div dir="ltr">Francisco Caicedo Oe3-46 y Avenida Brasil, Edificio Brasil 500 <a href="https://www.facebook.com/SybariteDeli" target="_blank">www.facebook.com/SybariteDeli</a></div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-78.489502,-0.168196,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vintage Delicatessen</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-78.447868,-0.188189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Frasca</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-78.444672,-0.181135,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Zoko</name>
+    <description><![CDATA[<div dir="ltr"><a href="https://www.facebook.com/zokopub/" target="_blank">www.facebook.com/zokopub </a></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-78.481674,-0.204175,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>SanViche</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-78.458672,-0.301157,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brau Platz</name>
+    <description><![CDATA[<div dir="ltr"><a href="https://www.facebook.com/pages/BRAU-Platz-Bar-Restaurante/545514198812697" target="_blank">www.facebook.com/pages/BRAU-Platz-Bar-Restaurante/545514198812697 </a></div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-78.490891,-0.203273,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eco Vecinos</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-78.472656,-0.179429,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Penny Lane</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-78.486176,-0.173936,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

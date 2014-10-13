@@ -1,17 +1,20 @@
 require 'active_support'
+require 'xmlsimple'
 
-vendors = [
-  {
-    name: 'Brasil Delicatesen',
-    lat: -0.165558,
-    lon: -78.489117
-  },
-  {
-    name: 'Taxi Licores',
-    lat: -0.159737,
-    lon: -78.490277
-  }
-]
+def vendors_from_kml(kml_file_name)
+  kml = XmlSimple.xml_in(kml_file_name, { 'KeyAttr' => 'name' })
+  placemarks = kml['Document'].map { |d| d['Placemark'] }.first
+  vendors_hash = placemarks.map do |p|
+    coords = p['Point'][0]['coordinates'][0]
+    lon, lat, _ = coords.split(',')
+    name = p['name'][0]
+    {
+      name: name,
+      lat: lat,
+      lon: lon
+    }
+  end
+end
 
 breweries = [
   {
@@ -166,10 +169,10 @@ def create(klass, data, opts = {})
   end
 end
 
-create Vendor, vendors, find_by: :name
+create Vendor, vendors_from_kml('./data/SINNERSubicaciones.kml'), find_by: :name
 create Brewery, breweries, find_by: :name
 
-5.times do
+100.times do
   Stocking.create({
     brewery:    random_instance(Brewery),
     vendor:     random_instance(Vendor),
